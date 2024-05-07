@@ -1,6 +1,6 @@
 # Node Random Emoji Generator Spring 2024
 
-Without any user input: print random emoji
+Display a random emoji by running the application without any arguments:
 
 ```
 node index.js
@@ -9,26 +9,25 @@ node index.js
 🦊
 ```
 
-With user input of a correct emoji name: print emoji
+Display a specific emoji by providing the emoji name as an argument:
 
 ```
 node index.js smiley
 😊
 ```
 
-With user input of an incorrect emoji name: print error message that emoji doesn't exist
+Display an error message if the emoji name is incorrect:
 
 ```
-node index.js upleveled
-Sorry upleveled emoji doesn't exist
+node index.js UpLeveled
+This emoji "UpLeveled" doesn't exist
 ```
 
 ## TODO
 
 - [x] figure out how to print a single emoji
-- [x] figure out data type
-- [x] figure out how to get emojis (library?)
+- [x] figure out how to get emojis, maybe from a library
 - [x] figure out how to randomize the emojis
-- [x] figure out how to receive the user input
-- [x] figure out how to use the text from the input and create an emoji
-- [x] figure out how to show an error when emoji doesn't exist
+- [x] figure out how to receive user input from the command line
+- [x] figure out how to print emoji with user input
+- [x] figure out how to print an error message when the emoji doesn't exist

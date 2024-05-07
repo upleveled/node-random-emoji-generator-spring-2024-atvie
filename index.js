@@ -11,5 +11,5 @@ if (argv.length < 3) {
   console.log(emoji.get(emojiName));
 } else {
   // This happens only if the emoji doesn't exist
-  console.log(`Sorry, ${emojiName} emoji doesn't exist`);
+  console.log(`The emoji "${emojiName}" doesn't exist`);
 }
